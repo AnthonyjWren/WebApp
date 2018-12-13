@@ -1,0 +1,50 @@
+  <% include ../partials/header %>
+
+<div class="row">
+  <h1>Submit Your Dishes</h1> 
+  <h2 id="ajc">Your menu will be added into the new dishes page.</h2>
+  <div class="grid-container">
+        
+            <form accept-charset="UTF-8" action="/addcontact" method="post">    
+                <div class="item">
+                  <label for="name">Name</label>
+                    <input name="name" type="text" placeholder="Enter name" />
+                  
+                  
+                  <label for="price">Price</label>
+                    <input name="price" type="number" placeholder="Enter price" />
+                    
+                   
+                   <label for="details">Details</label> 
+                    <input name="details" type="text" placeholder=" Enter details" />
+                    
+                    <label for="number">Number</label> 
+                    <input name="number" type="number" placeholder="Enter number" />
+                    
+                    <label for="picture">Picture</label>
+                    <input type="file" name="picture" accept="image/*">
+                    
+
+
+<button class="button">Add</button>
+                    
+                   
+                    </div>
+              </form>
+      
+         
+         
+    </div>
+  </h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+<% include ../partials/footer %>

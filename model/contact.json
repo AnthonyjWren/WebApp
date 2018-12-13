@@ -1,0 +1,26 @@
+[
+    {
+        "name": "chicken wings",
+        "details": "Fry chicken wings with hot sauce",
+        "id": 7,
+        "price": "13",
+        "number": "0896541234",
+        "picture": "chicken-wings.jpg"
+    },
+    {
+        "name": "chicken burger",
+        "details": "I like what you did in JSON",
+        "id": 7,
+        "price": "10",
+        "number": "0896541234",
+        "picture": "resized cburger.jpg"
+    },
+    {
+        "name": "spaghetti",
+        "id": 9,
+        "details": "noodle",
+        "number": "",
+        "price": "20",
+        "picture": "spagooti.jpg"
+    }
+]
